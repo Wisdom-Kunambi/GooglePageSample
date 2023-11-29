@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #202124;
+  font-family: arial, sans-serif;
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.container header img {
+  width: 16px;
+  margin: 0 13px;
+  color: white;
+  cursor: pointer;
+}
+
+.container header img.profil-img {
+  width: 30px;
+}
+
+.container header a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 13px;
+}
+
+.container header a:hover {
+  text-decoration: underline;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+  position: relative;
+}
+
+.content img {
+  margin-bottom: 30px;
+}
+
+.content img#gfnt {
+  width: 20%;
+}
+
+.content form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5f6368;
+  padding: 0 10px;
+  border-radius: 30px;
+}
+
+.content form:hover {
+  background: #303134;
+}
+
+.content form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 403px;
+  height: 44px;
+  font-size: 16px;
+  color: white;
+}
+
+.content form i#search {
+  margin-right: 7px;
+}
+
+.content form i {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: gray;
+}
+
+.content button {
+  margin-top: 15px;
+}
+
+.content .button button {
+  padding: 10px 18px;
+  background: #383134;
+  margin: 11px 4px;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: white;
+}
+
+.content .button button:hover {
+  border: 1px solid rgb(111, 111, 111);
+}
+
+/* footer */
+
+.footer .location {
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-bottom: 1px solid #3c4043;
+  background: #171717;
+  font-size: 15px;
+  color: #9aa0a6;
+}
+
+.footer-box {
+  display: flex;
+  height: 7vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: #171717;
+}
+
+.footer-box .item-1 {
+  min-width: 30%;
+  order: 1;
+}
+
+.footer-box .item-2 {
+  min-width: 30%;
+  order: 2;
+  text-align: center;
+}
+
+.footer-box .item-3 {
+  min-width: 30%;
+  justify-content: flex-end;
+  display: flex;
+  order: 3;
+}
+
+.footer-box .item {
+  color: #999da2;
+  font-size: 14px;
+}
+
+.footer-box .item a {
+  color: #999da2;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.footer-box .item a:hover {
+  text-decoration: underline;
+}
